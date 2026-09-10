@@ -10,4 +10,8 @@ public class Vehiculo {
         System.out.println("Modelo: " + modelo);
         System.out.println("Velocidad Actual: " + velocidadActual);
     }
+    //ParteC: Ejercicio 11
+    public void acelerar(){
+        this.velocidadActual += 10;
+    }
 }

@@ -1,4 +1,4 @@
-package ParteA_Reconocimiento.Ejercicio_01;
+package ParteA_Clases.Ejercicio_01;
 
 public class Estudiante {
     public String nombre;

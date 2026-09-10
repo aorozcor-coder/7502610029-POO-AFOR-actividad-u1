@@ -1,4 +1,4 @@
-package ParteA_Reconocimiento.Ejercicio_02;
+package ParteA_Clases.Ejercicio_02;
 
 public class Vehiculo {
     public String marca;

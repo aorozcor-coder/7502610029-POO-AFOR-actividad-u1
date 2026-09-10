@@ -1,4 +1,4 @@
-package ParteA_Reconocimiento.Ejercicio_05;
+package ParteA_Clases.Ejercicio_05;
 
 public class Mascota {
     public String nombre;

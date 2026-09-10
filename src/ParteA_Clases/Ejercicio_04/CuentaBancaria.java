@@ -1,4 +1,4 @@
-package ParteA_Reconocimiento.Ejercicio_04;
+package ParteA_Clases.Ejercicio_04;
 
 public class CuentaBancaria {
     public String numero;

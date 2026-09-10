@@ -10,8 +10,18 @@ public class Vehiculo {
         System.out.println("Modelo: " + modelo);
         System.out.println("Velocidad Actual: " + velocidadActual);
     }
+
     //ParteC: Ejercicio 11
-    public void acelerar(){
+    public void acelerar() {
         this.velocidadActual += 10;
+    }
+
+    //ParteC: Ejercicio 12
+    public void frenar() {
+        if (this.velocidadActual - 10 >= 0) {
+            this.velocidadActual -= 10;
+        } else {
+            this.velocidadActual = 0;
+        }
     }
 }

@@ -17,4 +17,11 @@ public class CuentaBancaria {
             this.saldo += valor;
         }
     }
+
+    //ParteC: Ejercicio 14
+    public void retirar(double valor) {
+        if (valor > 0 && this.saldo >= valor) {
+            this.saldo -= valor;
+        }
+    }
 }

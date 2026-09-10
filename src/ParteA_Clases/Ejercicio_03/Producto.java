@@ -10,4 +10,11 @@ public class Producto {
         System.out.println("Precio: $" + precio);
         System.out.println("Stock: " + stock);
     }
+
+    //ParteC: Ejercicio 15
+    public void vender(int cantidad) {
+        if (cantidad > 0 && this.stock >= cantidad) {
+            this.stock -= cantidad;
+        }
+    }
 }

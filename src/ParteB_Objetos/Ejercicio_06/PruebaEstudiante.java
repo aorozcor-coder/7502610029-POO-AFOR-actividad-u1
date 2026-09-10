@@ -1,6 +1,6 @@
 package ParteB_Objetos.Ejercicio_06;
 
-import ParteA_Reconocimiento.Ejercicio_01.Estudiante;
+import ParteA_Clases.Ejercicio_01.Estudiante;
 
 public class PruebaEstudiante {
     public static void main(String[] args) {

@@ -10,4 +10,11 @@ public class CuentaBancaria {
         System.out.println("Titular: " + titular);
         System.out.println("Saldo: $" + saldo);
     }
+
+    //ParteC: Ejercicio 13
+    public void consignar(double valor) {
+        if (valor > 0) {
+            this.saldo += valor;
+        }
+    }
 }

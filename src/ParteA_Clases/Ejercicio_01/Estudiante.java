@@ -10,5 +10,12 @@ public class Estudiante {
         System.out.println("Código: " + codigo);
         System.out.println("Semestre: " + semestre);
     }
+
+    //ParteC: Ejercicio 17
+    public void cambiarSemestre(int nuevoSemestre) {
+        if (nuevoSemestre > 0) {
+            this.semestre = nuevoSemestre;
+        }
+    }
 }
 

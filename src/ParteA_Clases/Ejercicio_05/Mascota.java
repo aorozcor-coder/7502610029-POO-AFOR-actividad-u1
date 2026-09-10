@@ -10,4 +10,9 @@ public class Mascota {
         System.out.println("Especie: " + especie);
         System.out.println("Edad: " + edad + " años");
     }
+
+    //ParteC: Ejercicio 18
+    public void cumplirAnios() {
+        this.edad++;
+    }
 }

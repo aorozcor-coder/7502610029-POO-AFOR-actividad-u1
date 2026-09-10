@@ -17,4 +17,11 @@ public class Producto {
             this.stock -= cantidad;
         }
     }
+
+    //ParteC: Ejercicio 16
+    public void reabastecer(int cantidad) {
+        if (cantidad > 0) {
+            this.stock += cantidad;
+        }
+    }
 }

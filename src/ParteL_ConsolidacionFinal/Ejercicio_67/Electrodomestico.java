@@ -12,6 +12,6 @@ public class Electrodomestico {
     }
 
     public void mostrarEstado() {
-        System.out.println("Dispositivo: " + nombre + " (" + ubicacion + ") -> " + (encendido ? "Encendido" : "Apagado"));
+        System.out.println("Electrodomestico: " + nombre + " (" + ubicacion + ") -> " + (encendido ? "Encendido" : "Apagado"));
     }
 }
